@@ -1,0 +1,188 @@
+.App {
+    text-align: center;
+  }
+  .dtl-btn{
+    cursor: pointer;
+  }
+  .navback{background:linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
+    font-family: 'Alata', sans-serif;
+  .navbar-brand{
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .nav-link{
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+.createpostpage{
+  font-family: 'Poppins', sans-serif;
+ h1{
+   font-size: 2.5em;
+ }
+}
+.post-bag{
+  font-family: 'Poppins', sans-serif;
+  .card{
+    border-radius: 10px;
+    h5{
+      font-size: 1.6em;
+      font-family: 'Poppins', sans-serif;
+    }
+    .card-text{
+      font-size: 1.1em;
+    }
+  }
+}
+  
+  @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+  .font-style{
+    font-family: 'Anton', sans-serif;
+  }
+  .font-5x{
+    font-size:57px;
+  }
+  .font-2x{
+    font-size:19px;
+  }
+  .w-card{
+    width: 26rem;
+    border:none;
+    
+  }
+  .font-bt{
+    font-size:17px;
+  }
+  .btn-purp{
+    background-color: #4139A7;
+    color:white;
+  }
+  .btn-purp:hover{
+    background-color: #3a3395;
+    color:white;
+  }
+  .card-set{
+    padding-left:150px;
+  }
+ 
+  @media only screen and (max-width:992px){
+    .font-5x{
+      font-size:46px;
+    }
+    .card-set{
+      padding-left:-10px;
+      
+    }
+    .createpostpage{
+      font-family: 'Poppins', sans-serif;
+     h1{
+       font-size: 2.2em;
+     }
+    }
+  }
+  @media only screen and (max-width:768px){
+    .font-5x{
+      font-size:36px;
+    }
+    .card-set{
+      padding-left:50px;
+    }
+    .post-bag{
+      font-family: 'Poppins', sans-serif;
+      .card{
+        border-radius: 10px;
+        h5{
+          font-size: 1.3em;
+          font-family: 'Poppins', sans-serif;
+        }
+        .card-text{
+          font-size: 0.9em;
+        }
+      }
+    }
+    .createpostpage{
+      font-family: 'Poppins', sans-serif;
+     h1{
+       font-size: 2em;
+     }
+    }
+  }
+  
+  @media only screen and (max-width:600px){
+    .font-5x{
+      font-size:29px;
+    }
+    .card-set{
+      padding-left:40px;
+    }
+    .navback{background:linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
+      font-family: 'Alata', sans-serif;
+    .navbar-brand{
+      font-size: 2em;
+      font-weight: 700;
+    }
+    .nav-link{
+      font-size: 1em;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+  .createpostpage{
+    font-family: 'Poppins', sans-serif;
+  }
+  .post-bag{
+    font-family: 'Poppins', sans-serif;
+    .card{
+      border-radius: 10px;
+      h5{
+        font-size: 1.1em;
+        font-family: 'Poppins', sans-serif;
+      }
+      .card-text{
+        font-size: 0.8em;
+      }
+    }
+  }
+  }
+
+
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  .navbar-toggler{border:0;}
+  .nav-link:hover{color:white;}
+  .bg-prp{
+    background-color: rgb(34, 25, 88);
+  }
+  .lg-ft{font-family: 'Poppins', sans-serif;}
